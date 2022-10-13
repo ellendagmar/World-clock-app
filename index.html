@@ -34,25 +34,27 @@
         <div class="selection">
           <select name="timezone" id="timezoneDropdown">
             <option value="">Choose city</option>
-            <option value="">Paris</option>
-            <option value="">New York</option>
+            <option value="localtime">Local Time</option>
+            <option value="newyork">New York</option>
+            <option value="sydney">Sydney</option>
           </select>
         </div>
       </div>
       <div class="shadow p-3 mb-5 bg-body rounded" id="timezoneContainer">
+        <div id="empty"></div>
         <div class="row cities">
-          <div class="col-8">
+          <div class="col-6">
             <h2>Tokyo</h2>
-            <div class="date">12 okt 2022</div>
+            <div class="date" id="tokyoDate"></div>
           </div>
-          <div class="col-4 time">12:32</div>
+          <div class="col-6 time" id="tokyoTime"></div>
         </div>
         <div class="row cities">
-          <div class="col-8">
-            <h2>Tokyo</h2>
-            <div class="date">12 okt 2022</div>
+          <div class="col-6">
+            <h2>Paris</h2>
+            <div class="date" id="parisDate"></div>
           </div>
-          <div class="col-4 time">12:32</div>
+          <div class="col-6 time" id="parisTime"></div>
         </div>
       </div>
     </div>
