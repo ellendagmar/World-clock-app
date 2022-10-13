@@ -12,3 +12,32 @@ h1 {
   text-align: center;
   padding-top: 5px;
 }
+#timezoneDropdown {
+  font-family: "Press Start 2P", cursive;
+  font-size: medium;
+}
+.selection {
+  text-align: center;
+}
+h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: xx-small;
+}
+.date {
+  font-family: "Press Start 2P", cursive;
+  font-size: xx-small;
+}
+.time {
+  font-family: "Press Start 2P", cursive;
+  font-size: large;
+}
+footer {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: x-small;
+  color: rgb(49, 49, 49);
+}
+#githublink {
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+}
