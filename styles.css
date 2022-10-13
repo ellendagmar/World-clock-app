@@ -1,0 +1,14 @@
+body {
+  background-color: bisque !important;
+}
+.container {
+  padding: 16px;
+  margin: 50px auto;
+  max-width: 400px;
+}
+h1 {
+  color: rgb(49, 49, 49);
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  padding-top: 5px;
+}
