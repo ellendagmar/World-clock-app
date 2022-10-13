@@ -1,35 +1,16 @@
 body {
   background-color: bisque !important;
 }
-.container {
-  padding: 16px;
-  margin: 50px auto;
-  max-width: 400px;
-}
 h1 {
   color: rgb(49, 49, 49);
   font-family: "Press Start 2P", cursive;
   text-align: center;
   padding-top: 5px;
 }
-#timezoneDropdown {
-  font-family: "Press Start 2P", cursive;
-  font-size: medium;
-}
-.selection {
-  text-align: center;
-}
 h2 {
   font-family: "Press Start 2P", cursive;
   font-size: xx-small;
-}
-.date {
-  font-family: "Press Start 2P", cursive;
-  font-size: xx-small;
-}
-.time {
-  font-family: "Press Start 2P", cursive;
-  font-size: large;
+  color: rgb(49, 49, 49);
 }
 footer {
   text-align: center;
@@ -37,7 +18,43 @@ footer {
   font-size: x-small;
   color: rgb(49, 49, 49);
 }
+#clockContainer {
+  max-width: 500px;
+  margin: auto;
+  border-style: outset;
+}
+#timezoneContainer {
+  max-width: 500px;
+  margin: auto;
+  border-style: outset;
+}
+#timezoneDropdown {
+  font-family: "Press Start 2P", cursive;
+  font-size: medium;
+  width: 100%;
+  padding: 5px;
+  border-style: outset;
+}
 #githublink {
   text-decoration: none;
   color: rgb(99, 99, 99);
+}
+.cities {
+  border-bottom: dotted;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.container {
+  padding: 16px;
+  margin: auto;
+  max-width: 400px;
+}
+.date {
+  font-family: "Press Start 2P", cursive;
+  font-size: xx-small;
+  color: rgb(77, 77, 77);
+}
+.time {
+  font-family: "Press Start 2P", cursive;
+  font-size: large;
 }

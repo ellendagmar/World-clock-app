@@ -29,7 +29,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="shadow p-3 mb-5 bg-body rounded">
+      <div class="shadow p-3 mb-5 bg-body rounded" id="clockContainer">
         <h1>World Clock</h1>
         <div class="selection">
           <select name="timezone" id="timezoneDropdown">
@@ -39,8 +39,15 @@
           </select>
         </div>
       </div>
-      <div class="shadow p-3 mb-5 bg-body rounded">
-        <div class="row">
+      <div class="shadow p-3 mb-5 bg-body rounded" id="timezoneContainer">
+        <div class="row cities">
+          <div class="col-8">
+            <h2>Tokyo</h2>
+            <div class="date">12 okt 2022</div>
+          </div>
+          <div class="col-4 time">12:32</div>
+        </div>
+        <div class="row cities">
           <div class="col-8">
             <h2>Tokyo</h2>
             <div class="date">12 okt 2022</div>
