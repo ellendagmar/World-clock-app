@@ -11,6 +11,12 @@ setInterval(function () {
 
     let parisDateNow = document.querySelector("#parisDate");
     parisDateNow.innerHTML = moment().tz("Europe/Paris").format(`D MMM YYYY`);
+
+    let nuukTimeNow = document.querySelector("#nuukTime");
+    nuukTimeNow.innerHTML = moment().tz("America/Nuuk").format(`HH:mm:ss`);
+
+    let nuukDateNow = document.querySelector("#nuukDate");
+    nuukDateNow.innerHTML = moment().tz("America/Nuuk").format(`D MMM YYYY`);
   }
 }, 1000);
 
@@ -27,13 +33,13 @@ function updateClock(event) {
   let cityName = cityTimezone.replace(`_`, ` `).split("/")[1];
   let updating = document.querySelector("#timezoneContainer");
   updating.innerHTML = `<div class="row cities">
-          <div class="col-6">
+          <div class="col-5">
             <h2>${cityName}</h2>
             <div class="date">
               ${moment().tz(event.target.value).format(`D MMM YYYY`)}
             </div>
           </div>
-          <div class="col-6 time">
+          <div class="col-7 time">
             ${moment().tz(event.target.value).format(`HH:mm:ss`)}
           </div>
         </div>`;
