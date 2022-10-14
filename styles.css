@@ -19,6 +19,10 @@ footer {
   font-size: x-small;
   color: rgb(49, 49, 49);
 }
+#worldclock {
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+}
 #clockContainer {
   max-width: 500px;
   margin: auto;
@@ -59,5 +63,5 @@ footer {
 .time {
   font-family: "Press Start 2P", cursive;
   font-size: large;
-  padding-top: 30px;
+  padding-top: 35px;
 }
