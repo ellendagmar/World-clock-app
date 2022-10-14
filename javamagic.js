@@ -21,6 +21,9 @@ updateCity.addEventListener(`change`, updateClock);
 
 function updateClock(event) {
   let cityTimezone = event.target.value;
+  if (cityTimezone === "localtime") {
+    cityTimezone = moment.tz.guess();
+  }
   let cityName = cityTimezone.replace(`_`, ` `).split("/")[1];
   let updating = document.querySelector("#timezoneContainer");
   updating.innerHTML = `<div class="row cities">
